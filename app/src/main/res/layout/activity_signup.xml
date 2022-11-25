@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/login_card_style"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Inscrivez-vous"
+                    android:textSize="34dp"
+                    android:textStyle="bold"
+                    android:textColor="#03A9F4"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:hint="E-mail"
+                    android:padding="15dp"
+                    android:background="@drawable/input_style"
+                    android:drawableLeft="@drawable/mail"
+                    android:layout_marginTop="5dp"
+                    android:drawableTint="#65000000"
+                    android:textSize="25dp"
+                    android:textColorHint="#AB000000"
+                    android:drawablePadding="13dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:hint="Nom d'utilisateur"
+                    android:padding="15dp"
+                    android:background="@drawable/input_style"
+                    android:drawableLeft="@drawable/user"
+                    android:layout_marginTop="5dp"
+                    android:drawableTint="#65000000"
+                    android:textSize="25dp"
+                    android:textColorHint="#AB000000"
+                    android:drawablePadding="13dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:background="@drawable/input_style"
+                    android:drawableLeft="@drawable/padlock"
+                    android:layout_marginTop="5dp"
+                    android:text="something"
+                    android:drawableTint="#65000000"
+                    android:textSize="25dp"
+                    android:textColorHint="#AB000000"
+                    android:drawablePadding="13dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/signupbtn"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/btncolor1"
+                android:padding="15dp"
+                android:text="S'inscrire"
+                android:textAllCaps="false"
+                android:textSize="23dp"
+                app:cornerRadius="50dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Vous avez deja un compte ?"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/haveaccount"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:text="Se connecter"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textColor="#8F074A68"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
