@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".localisation">
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="220dp"
+
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/logo"
+
+        />
+
+    <Button
+        android:id="@+id/btn_location"
+
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:layout_margin="25dp"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#A290C1"
+        android:padding="15dp"
+        android:text="Activer la localisation"
+        android:textAllCaps="false"
+        android:textSize="23dp"
+
+
+        app:cornerRadius="50dp" />
+</LinearLayout>

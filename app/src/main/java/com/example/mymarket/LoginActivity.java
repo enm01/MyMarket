@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity {
                     Boolean checkuserpass = DB.checkusernamepassword(user,pass);
                     if(checkuserpass == true){
                         Toast.makeText(LoginActivity.this , "bienvenue de nouveau  dans votre market" , Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), localisation.class);
                         startActivity(intent);
                     }else{
                         Toast.makeText(LoginActivity.this , "nom d'utilisateur ou mot de passe incorrects , veuillez essayer de nouveau " , Toast.LENGTH_SHORT).show();

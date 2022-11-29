@@ -47,7 +47,7 @@ public class SignupActivity extends AppCompatActivity {
                         Boolean insert = DB.insertData(user, pass);
                         if (insert == true) {
                             Toast.makeText(SignupActivity.this, "Bienvenue dans votre market ", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), localisation.class);
                             startActivity(intent);
                         } else {
                             Toast.makeText(SignupActivity.this, "Inscription echoue", Toast.LENGTH_SHORT).show();
