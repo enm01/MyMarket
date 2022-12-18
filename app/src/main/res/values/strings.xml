@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">MyMarket</string>
+    <string name="logo_name">MyMarket</string>
+    <string name="search_text">Chercher ici</string>
+    <string name="top_seller">Top Sellers</string>
+    <string name="explication">restez proche de vos produits les best-sellers</string>
+    <string name="most_viewed">Les plus vus</string>
+    <string name="view_all">Voir tous</string>
+    <string name="categories">Catégorie</string>
+    <string name="boucherie">Boucherie</string>
+    <string name="epicerie">épicerie</string>
+    <string name="legumes">Légumes/Fruits</string>
+    <string name="legu">Lég/Fruits</string>
+    <string name="parisserie">Pâtisserie</string>
+    <string name="cate">Catégorie</string>
+    <string name="price">20</string>
 </resources>

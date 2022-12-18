@@ -13,5 +13,10 @@
     <color name="bgcolorend">#3095D3</color>
     <color name="btncolor1">#0562A7</color>
     <color name="btncolor2">#37DBFF</color>
+    <color name="orange">#FFC75F</color>
+    <color name="lightWhite">#FFFFF7</color>
+    <color name="grey">#c0c0c0</color>
+    <color name="mv">#800080</color>
+    <color name="violet">#ee82ee</color>
 
 </resources>

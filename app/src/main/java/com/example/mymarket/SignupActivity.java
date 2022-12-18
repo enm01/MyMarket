@@ -46,15 +46,15 @@ public class SignupActivity extends AppCompatActivity {
                     if (DB.checkusername(user) == false) {
                         Boolean insert = DB.insertData(user, pass);
                         if (insert == true) {
-                            Toast.makeText(SignupActivity.this, "Bienvenue dans votre market ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignupActivity.this, "Bienvenue dans votre épicerie ", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                             startActivity(intent);
                         } else {
-                            Toast.makeText(SignupActivity.this, "Inscription echoue", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(SignupActivity.this, "Inscription échouée", Toast.LENGTH_SHORT).show();
 
                         }
                     } else {
-                        Toast.makeText(SignupActivity.this, "Nom d'utilisateur deja existant !", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignupActivity.this, "Nom d'utilisateur déjà existant !", Toast.LENGTH_SHORT).show();
                     }
                 }
 

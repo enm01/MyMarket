@@ -30,7 +30,7 @@
                     android:text="Inscrivez-vous"
                     android:textSize="34dp"
                     android:textStyle="bold"
-                    android:textColor="#03A9F4"
+                    android:textColor="#FFB54B"
                     android:layout_height="wrap_content"/>
 
             </LinearLayout>
@@ -54,9 +54,9 @@
                     android:background="@drawable/input_style"
                     android:drawableLeft="@drawable/mail"
                     android:layout_marginTop="5dp"
-                    android:drawableTint="#65000000"
+                    android:drawableTint="#AB504C4C"
                     android:textSize="25dp"
-                    android:textColorHint="#AB000000"
+                    android:textColorHint="#AB504C4C"
                     android:drawablePadding="13dp"
                     android:layout_height="wrap_content"/>
 
@@ -76,9 +76,9 @@
                     android:background="@drawable/input_style"
                     android:drawableLeft="@drawable/user"
                     android:layout_marginTop="5dp"
-                    android:drawableTint="#65000000"
+                    android:drawableTint="#AB504C4C"
                     android:textSize="25dp"
-                    android:textColorHint="#AB000000"
+                    android:textColorHint="#AB504C4C"
                     android:drawablePadding="13dp"
                     android:layout_height="wrap_content"/>
 
@@ -99,9 +99,9 @@
                     android:drawableLeft="@drawable/padlock"
                     android:layout_marginTop="5dp"
                     android:text="something"
-                    android:drawableTint="#65000000"
+                    android:drawableTint="#AB504C4C"
                     android:textSize="25dp"
-                    android:textColorHint="#AB000000"
+                    android:textColorHint="#AB504C4C"
                     android:drawablePadding="13dp"
                     android:layout_height="wrap_content"/>
 
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
-                android:backgroundTint="@color/btncolor1"
+                android:backgroundTint="#FFB54B"
                 android:padding="15dp"
                 android:text="S'inscrire"
                 android:textAllCaps="false"
@@ -145,7 +145,7 @@
                 android:text="Se connecter"
                 android:textSize="21dp"
                 android:textStyle="bold"
-                android:textColor="#8F074A68"
+                android:textColor="#AB504C4C"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>

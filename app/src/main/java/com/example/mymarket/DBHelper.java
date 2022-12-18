@@ -7,6 +7,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+
 public class DBHelper extends SQLiteOpenHelper{
 
     public static final String DBNAME ="market.db";
@@ -17,11 +18,14 @@ public class DBHelper extends SQLiteOpenHelper{
     @Override
     public void onCreate(SQLiteDatabase db){
         db.execSQL("create table users(username TEXT primary key , password TEXT )");
+
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
         db.execSQL("drop table if exists users ");
+
+
 
     }
 
@@ -53,6 +57,8 @@ public class DBHelper extends SQLiteOpenHelper{
         else
             return false ;
     }
+
+
 
 
 }

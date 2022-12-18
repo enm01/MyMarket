@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     Boolean checkuserpass = DB.checkusernamepassword(user,pass);
                     if(checkuserpass == true){
-                        Toast.makeText(LoginActivity.this , "bienvenue de nouveau  dans votre market" , Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this , "Bienvenue de nouveau  dans votre épicerie " , Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
                         startActivity(intent);
                     }else{

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_gradient"
+    android:background="#FFB54B"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -30,14 +30,14 @@
                     android:text="Connectez-vous"
                     android:textSize="34dp"
                     android:textStyle="bold"
-                    android:textColor="#03A9F4"
+                    android:textColor="#FFB54B"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:layout_width="wrap_content"
-                    android:text="Pour acceder a votre market !"
+                    android:text="Pour acceder à votre épicerie !"
                     android:textSize="20dp"
                     android:textStyle="normal"
-                    android:textColor="#A9000000"
+                    android:textColor="#AB504C4C"
                     android:layout_height="wrap_content"/>
 
             </LinearLayout>
@@ -62,9 +62,9 @@
                     android:background="@drawable/input_style"
                     android:drawableLeft="@drawable/user"
                     android:layout_marginTop="5dp"
-                    android:drawableTint="#65000000"
+                    android:drawableTint="#AB504C4C"
                     android:textSize="25dp"
-                    android:textColorHint="#AB000000"
+                    android:textColorHint="#AB504C4C"
                     android:drawablePadding="13dp"
                     android:layout_height="wrap_content"/>
 
@@ -85,9 +85,9 @@
                     android:drawableLeft="@drawable/padlock"
                     android:layout_marginTop="5dp"
                     android:text="something"
-                    android:drawableTint="#65000000"
+                    android:drawableTint="#AB504C4C"
                     android:textSize="25dp"
-                    android:textColorHint="#AB000000"
+                    android:textColorHint="#AB504C4C"
                     android:drawablePadding="13dp"
                     android:layout_height="wrap_content"/>
 
@@ -100,7 +100,7 @@
                 android:layout_marginVertical="10dp"
                 android:layout_gravity="right"
                 android:textStyle="bold"
-                android:textColor="#03A9F4"
+                android:textColor="#AB504C4C"
                 android:layout_height="wrap_content"/>
 
 
@@ -109,8 +109,9 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:backgroundTint="@color/btncolor1"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#FFB54B"
+                android:layout_marginBottom="50dp"
                 android:padding="15dp"
                 android:text="Se connecter"
                 android:textAllCaps="false"
@@ -143,7 +144,7 @@
                 android:text="Inscrivez-vous"
                 android:textSize="21dp"
                 android:textStyle="bold"
-                android:textColor="#8F074A68"
+                android:textColor="#AB504C4C"
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
